@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-green-dark: #023c1d;
+  --color-brand-green: #00662d; /* Elegant Flag Green */
+  --color-brand-green-light: #15803d;
+  --color-brand-teal: #0f766e;
+}
+
+/* Eye-safe modern layout customizations */
+body {
+  font-family: var(--font-sans);
+  background-color: #f8fafc; /* smooth soft slate-50 background */
+}
+
+/* Simple fade-in animation rules */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

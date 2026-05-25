@@ -1,0 +1,6 @@
+{
+  "name": "Pakistan Software Houses Careers Directory",
+  "description": "A beautifully curated directory of top software companies in Pakistan with direct recruitment portals, HR emails, and a custom AI-powered resume matching engine to find roles, assess location compatibility, and draft tailor-made applications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
